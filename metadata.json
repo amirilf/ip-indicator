@@ -1,0 +1,9 @@
+{
+  "name": "IP Indicator",
+  "description": "Display public and local IP addresses with country flag. Multiple API sources with auto-fallback.",
+  "uuid": "ip-indicator@amirilf.ir",
+  "shell-version": ["42"],
+  "version": 1,
+  "url": "https://github.com/amirilf/ip-indicator",
+  "settings-schema": "org.gnome.shell.extensions.ip-indicator"
+}
