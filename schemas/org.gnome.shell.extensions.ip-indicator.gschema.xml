@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.ip-indicator" path="/org/gnome/shell/extensions/ip-indicator/">
+    <key name="refresh-interval" type="i">
+      <default>60</default>
+      <summary>Refresh interval in seconds</summary>
+      <description>
+        How often to check for IP changes. Set to 0 to disable auto-refresh.
+        Values should be multiples of 30 seconds.
+      </description>
+      <range min="0" max="3600"/>
+    </key>
+    <key name="panel-position" type="s">
+      <default>"left"</default>
+      <summary>Panel position</summary>
+      <description>
+        Where to show the indicator in the top panel (left, center, or right)
+      </description>
+      <choices>
+        <choice value="left"/>
+        <choice value="center"/>
+        <choice value="right"/>
+      </choices>
+    </key>
+  </schema>
+</schemalist>
+
